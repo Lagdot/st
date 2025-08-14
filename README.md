@@ -18,7 +18,7 @@ Made with dmenu in mind
 ## Installation
 
 ```
-git clone https://Lagdot/st
+git clone https://github.com/Lagdot/st
 cd st
 doas make install
 ```
