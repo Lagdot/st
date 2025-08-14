@@ -1,6 +1,5 @@
 
-The [suckless terminal](https://st.suckless.org) with some extra stuff
-Based on Luke Smith's build
+The [suckless terminal](https://st.suckless.org) with some extra stuff based on Luke Smith's build
 
 Made with dmenu in mind
 
