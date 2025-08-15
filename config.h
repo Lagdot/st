@@ -113,63 +113,44 @@ float alphaUnfocus;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-//	"#13211c", /* hard contrast: #1d2021 / soft contrast: #32302f */
-//	"#c1473c", //red
-//	"#4a7263", //green
-//	"#b06d46", //yellow/orange
-//	"#46697e", //blue
-//	"magenta3", //magenta
-//	"#59a5bb", //cyan
-//	"#e6f4f3", //white
+	"#13211c", /* hard contrast: #1d2021 / soft contrast: #32302f */
+	"#c1473c", //red
+	"#4a7263", //green
+	"#b06d46", //yellow/orange
+	"#46697e", //blue
+	"#31704b", //magenta
+	"#59a5bb", //cyan
+	"#e6f4f3", //white
 
 	/* bright colors */
-//	"gray50",
-//	"#dd5549",
-//	"#61918c",
-//	"#cc936b",
-//	"#729ead",
-//	"magenta",
-//	"#4fbbd5",
-//	"white",
-
-//	"#171919", //black
-//	"#222d2d", //red
-//	"#283939", //green
-//	"#39586C", //yellow/orange
-//	"#55768A", //blue
-//	"#8C999C", //magenta
-//	"#F5C18A", //cyan
-//	"#C4C6C3", //white
-
-	/* bright colors */
-//	"#2d3030",
-//	"#354747",
-//	"#395151",
-//	"#466b84",
-//	"#658ba3",
-//	"#a2b1b5",
-//	"#ffc88e",
-//	"#dde0db",
+	"gray50",
+	"#dd5549",
+	"#61918c",
+	"#cc936b",
+	"#729ead",
+	"#3c895c",
+	"#4fbbd5",
+	"white",
 
     /* 8 bright colors */
-    "#263a3a", //black50
-	"#385c66", //red
-	"#4f7c99", //green
-	"#a07b68", //yellow
-	"#90979b", //blue/#5c5cff
-	"#3c895c", //magenta
-        "#db834c", //cyan
-	"white", //white
+//    "#263a3a", //black50
+//	"#385c66", //red
+//	"#4f7c99", //green
+//	"#a07b68", //yellow
+//	"#90979b", //blue/#5c5cff
+//	"#3c895c", //magenta
+//  "#db834c", //cyan
+//	"white", //white
 
     /* 8 normal colors */
-    "#152020", //black
-	"#2a454c", //red3
-	"#42687f", //green3
-	"#876858", //yellow3
-	"#797f82", //blue2
-	"#31704b", //magenta3
-	"#c27444", //cyan3
-	"gray90", //white/gray90
+//    "#152020", //black
+//	"#2a454c", //red3
+//	"#42687f", //green3
+//	"#876858", //yellow3
+//	"#797f82", //blue2
+//	"#31704b", //magenta3
+//	"#c27444", //cyan3
+//	"gray90", //white/gray90
 
 	[255] = 0,
 
