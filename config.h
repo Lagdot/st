@@ -17,7 +17,7 @@ static int borderpx = 2;
  * 4: value of shell in /etc/passwd
  * 5: value of shell in config.h
  */
-static char *shell = "/bin/bash";
+static char *shell = "/bin/sh";
 char *utmp = NULL;
 /* scroll program: to enable use a string like "scroll" */
 char *scroll = NULL;
@@ -113,44 +113,46 @@ float alphaUnfocus;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	"#13211c", /* hard contrast: #1d2021 / soft contrast: #32302f */
-	"#c1473c", //red
-	"#4a7263", //green
-	"#b06d46", //yellow/orange
-	"#46697e", //blue
-	"#31704b", //magenta
-	"#59a5bb", //cyan
-	"#e6f4f3", //white
-
-	/* bright colors */
-	"gray50",
-	"#dd5549",
-	"#61918c",
-	"#cc936b",
-	"#729ead",
-	"#3c895c",
-	"#4fbbd5",
-	"white",
 
     /* 8 bright colors */
-//    "#263a3a", //black50
-//	"#385c66", //red
-//	"#4f7c99", //green
-//	"#a07b68", //yellow
-//	"#90979b", //blue/#5c5cff
-//	"#3c895c", //magenta
-//  "#db834c", //cyan
-//	"white", //white
+    "#181818", //black50
+	"#C68B61", //red
+	"#595959", //green
+	"#8D8C8C", //yellow
+	"#46697e", //blue/#5c5cff
+	"#777676", //magenta
+  "#D99A6A", //cyan
+	"white", //white
+   /* 8 normal colors */
+    "#232323", //black50
+	"#d39467", //red
+	"#666666", //green
+	"#999797", //yellow
+	"#729ead", //blue/#5c5cff
+	"#848383", //magenta
+  "#e5a370", //cyan
+	"gray90", //white
 
-    /* 8 normal colors */
-//    "#152020", //black
-//	"#2a454c", //red3
-//	"#42687f", //green3
-//	"#876858", //yellow3
-//	"#797f82", //blue2
-//	"#31704b", //magenta3
-//	"#c27444", //cyan3
-//	"gray90", //white/gray90
+	/* old colors */
+/*    "#13211c", // hard contrast: #1d2021 / soft contrast: #32302f 
+    "#c1473c", //red
+    "#4a7263", //green
+    "#b06d46", //yellow/orange
+    "#46697e", //blue
+    "#31704b", //magenta
+    "#59a5bb", //cyan
+    "#e6f4f3", //white
+
+    // bright colors 
+    "gray50",
+    "#dd5549",
+    "#61918c",
+    "#cc936b",
+    "#729ead",
+    "#3c895c",
+    "#4fbbd5",
+    "white",
+*/
 
 	[255] = 0,
 
